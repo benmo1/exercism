@@ -7,7 +7,7 @@
  * @param string $b
  * @return int
  */
-function distance(string $a, string $b) : int
+function distance(string $a, string $b): int
 {
     if (($l = strlen($a)) !== strlen($b)) {
         throw new InvalidArgumentException('DNA strands must be of equal length.');
